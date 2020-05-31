@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:background="@color/black"
     android:layout_height="wrap_content">
 
     <RelativeLayout
@@ -27,6 +28,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="C"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -39,6 +41,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="()"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -51,6 +54,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="%"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -63,7 +67,8 @@
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
-                android:text="/"
+                android:fontFamily="@font/arimo"
+                android:text="÷"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
             <!--End of first row of the Grid-->
@@ -76,6 +81,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="7"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -88,6 +94,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="8"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -100,6 +107,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="9"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -112,7 +120,8 @@
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
-                android:text="X"
+                android:fontFamily="@font/arimo"
+                android:text="×"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
 
@@ -126,6 +135,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="4"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -138,6 +148,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="5"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -150,6 +161,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="6"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -162,6 +174,7 @@
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="-"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -174,6 +187,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="1"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -186,6 +200,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="2"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -198,6 +213,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="3"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -210,6 +226,7 @@
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="+"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -222,6 +239,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="0"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -235,6 +253,7 @@
                 android:layout_columnSpan="2"
                 android:layout_columnWeight="1"
                 android:background="@color/black"
+                android:fontFamily="@font/arimo"
                 android:text="."
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -247,6 +266,7 @@
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:background="@color/orange"
+                android:fontFamily="@font/arimo"
                 android:text="="
                 android:textColor="@color/white"
                 android:textSize="25sp" />
